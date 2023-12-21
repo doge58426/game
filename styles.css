@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 3;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: aliceblue;
+}
+
+.signin {
+    text-align: center;
+    background-color: rgb(29, 112, 163);
+    border-radius: 5px;
+}
+.password{
+    background-color: none;
+}
+
+input {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    width: 3in;
+    outline:none;
+    border-radius: 5px;
+    font-size:15px;
+    background-color: aliceblue;
+}
+
+.loggerA {
+    border:1px black solid;
+    display:none;
+}
+.loggerB {
+    border:1px black solid;
+    display:block;
+}
+.logger .gamesLogged {
+    background-color:black;
+}
