@@ -14,9 +14,7 @@ body {
     background-color: rgb(29, 112, 163);
     border-radius: 5px;
 }
-.password{
-    background-color: none;
-}
+
 
 input {
     display: block;
@@ -29,14 +27,45 @@ input {
     background-color: aliceblue;
 }
 
-.loggerA {
-    border:1px black solid;
+input:focus {
+    background-color: lightblue;
+}
+
+
+
+.logger {
+    border: rgb(211, 4, 4) solid 4px;
+    border-radius: 40px;
     display:none;
+    width: 40%;
+    max-height: 50%;
+
 }
-.loggerB {
-    border:1px black solid;
-    display:block;
+
+.gamesLogged {
+    border: black solid 4px;
+    
+    margin: 0px 15px 15px 15px;
+    max-height: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
-.logger .gamesLogged {
-    background-color:black;
+
+.test{
+    text-align: center;
+}
+
+.gameLoss{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:rgb(211, 4, 4)
+}
+
+.escapemessage{
+    text-align: center;
+}
+
+hr {
+    width:85%;
+    margin-top: 5px;
 }
